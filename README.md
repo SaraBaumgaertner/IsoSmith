@@ -47,6 +47,7 @@ sudo dd if=isosmith.iso of=/dev/sdX bs=4M status=progress && sync
 ---
 
 ## 🛠 Repository Structure
+```
 isosmith/
 ├── boot/           # PXE boot configs, GRUB configs (if used)
 ├── scripts/        # Post-boot init scripts, system setup
@@ -54,3 +55,4 @@ isosmith/
 ├── docs/           # Documentation and usage notes
 ├── isosmith.iso    
 └── README.md
+```
