@@ -35,7 +35,7 @@ This repo includes:
 ### Boot from ISO (VirtualBox/QEMU):
 
 ```bash
-qemu-system-x86_64 -boot d -cdrom ./isosmith.iso -m 2048
+qemu-system-x86_64 -boot d -find -cdrom ./iso.riddle -m 2048
 ```
 
 ### Or create a bootable USB:
